@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.mazeassignment.mavenproject2;
+
 
 /**
  *
@@ -15,4 +15,14 @@ public class Tile {
     public Tile(boolean isWall) {
         this.isWall = isWall;
     }
+
+    public boolean getIsWall() {
+        return isWall;
+    }
+
+    public void setIsWall(boolean isWall) {
+        this.isWall = isWall;
+    }
+    
+    
 }
