@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-
 /**
  *
  * @author olymp
@@ -23,6 +22,6 @@ public class Tile {
     public void setIsWall(boolean isWall) {
         this.isWall = isWall;
     }
-    
-    
+
+
 }
