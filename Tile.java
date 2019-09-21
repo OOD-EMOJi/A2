@@ -23,5 +23,8 @@ public class Tile {
         this.isWall = isWall;
     }
 
-
+	@Override
+	public String toString() {
+		return (isWall ? "X" : " ");
+	}
 }
