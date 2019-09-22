@@ -19,8 +19,12 @@ public class Tile {
         return isWall;
     }
 
-    public void setIsWall(boolean isWall) {
-        this.isWall = isWall;
+    public void makeWall() {
+        isWall = true;
+    }
+
+    public void makePath() {
+	isWall = false;
     }
 
 	@Override
