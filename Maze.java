@@ -18,11 +18,12 @@ public class Maze {
     }
 
     void generateMaze(){
-        for (Tile[] a : tiles){
-            for(Tile b : a){
-                b.makeWall();
-            }
-        }
+//         for (Tile[] a : tiles){
+//             for(Tile b : a){
+//                 b.makeWall();
+//             }
+//         }
+        generator.generateMaze();
     }
     
 }
