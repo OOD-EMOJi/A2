@@ -9,10 +9,11 @@ public class MazePrinter {
         for (int i=0; i < maze.tiles.length; i++) {
             for (int j=0; j < maze.tiles[i].length; j++) {
                 if (maze.tiles[i][j].isWall())
-                    System.out.print("█");
+                    System.out.print("██");
                 else
-                    System.out.print(" ");
+                    System.out.print("  ");
             }
+            System.out.println();
         }
         System.out.println();
     }
