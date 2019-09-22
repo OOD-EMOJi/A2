@@ -9,21 +9,20 @@
  * @author olymp
  */
 public class Maze {
-    Tile [][] tiles;
+    Tile[][] tiles;
     MazeGenerator generator;
 
-    public Maze(Tile[][] tiles, MazeGenerator generator) {
-        this.tiles = tiles;
+    public Maze(MazeGenerator generator) {
         this.generator = generator;
     }
 
-    void generateMaze(){
+    void generateMaze(int width, int height){
 //         for (Tile[] a : tiles){
 //             for(Tile b : a){
 //                 b.makeWall();
 //             }
 //         }
-        generator.generateMaze(tiles.length, tiles.height);
+        tiles = generator.generateMaze( width, height );
     }
     
 }
