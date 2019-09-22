@@ -15,7 +15,7 @@ public class Tile {
         this.isWall = isWall;
     }
 
-    public boolean getIsWall() {
+    public boolean isWall() {
         return isWall;
     }
 
