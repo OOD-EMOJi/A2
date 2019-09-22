@@ -23,7 +23,7 @@ public class Maze {
 //                 b.makeWall();
 //             }
 //         }
-        generator.generateMaze();
+        generator.generateMaze(tiles.length, tiles.height);
     }
     
 }
