@@ -20,7 +20,7 @@ public class Maze {
     void generateMaze(){
         for (Tile[] a : tiles){
             for(Tile b : a){
-                b.setIsWall(true);
+                b.makeWall();
             }
         }
     }
